@@ -1,69 +1,106 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  html,
-  body {
-    height: 100%;
-  }
-  
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-  }
-  
-  img {
-    max-width: 100%;
-  }
-  
-  ul {
-    padding: 0;
-    margin: 0;
-  }
-  
-  ul > li {
-    list-style: none;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin: 0;
-  }
-  
-  p {
-    margin: 0;
-  }
-  
-  .wrapper {
-    min-height: 100%;
-    overflow: hidden;
-    font-family: Arial, Helvetica, sans-serif;
-    position: relative;
-  }
-  
-  .container {
-    max-width: 1130px;
-    padding: 0px 5px;
-    margin: 0 auto;
-  }
-  
-  .header {
-    border-bottom: 3px solid white;
-    padding-top: 16px;
-    line-height: 1.13;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 10;
-  }
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul>li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.wrapper {
+  min-height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5b5dc;
+  background: linear-gradient(134deg, rgba(245, 181, 220, 1) 0%, rgba(138, 205, 222, 1) 50%, rgba(176, 247, 189, 1) 100%);
+}
+
+.container {
+  max-width: 1130px;
+  padding: 0px 5px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 25px;
+  padding: 10pxpx;
+}
+
+.nav__list {
+  display: flex;
+  column-gap: 20px;
+  padding: 10px 15px;
+}
+
+.nav__item {}
+
+.new_post {}
+
+.log {}
+
+.search {
+  border-radius: 20px;
+  padding: 3px;
+  width: 350px;
+}
+
+.posts {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.posts__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding: 15px 20px;
+}
+
+.post__item {
+  border: 1px solid rgb(219, 228, 238);
+  border-radius: 5px;
+
+}
+
+.post__title {}
+
+.post__content {}
+
+.btn {
+  border-radius: 10px;
+}
